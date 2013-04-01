@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-def action
+def about
 	#content goes here
 end
 
