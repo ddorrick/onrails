@@ -1,7 +1,15 @@
+/* You could change the font */
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
 @import 'bootstrap';
 
 body {
-     padding-top: 60px;
+	padding-top: 60px;
 }
 
 @import 'bootstrap-responsive';
@@ -31,14 +39,15 @@ body {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 10px #444;
+	width: 214px;
 }
 
 .box img {
-display: block;
-width: 100%;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+	diplay: block;
+	width: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .description {
